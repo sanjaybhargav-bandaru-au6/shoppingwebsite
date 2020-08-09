@@ -7,7 +7,7 @@
     "client": "cd clienside && npm start",
     "server": "nodemon --watch serverside --exec babel-node serverside/server.js",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "start":"npm start"
+    "start":"npm run dev"
   },
   "author": "Sanjay Bhargav Bandaru",
   "license": "ISC",
